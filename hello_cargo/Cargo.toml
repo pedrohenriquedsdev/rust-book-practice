@@ -1,0 +1,9 @@
+[package] # CABEÇALHO: Indica que as instruções seguintes configuram o pacote.
+
+# INFOS DE CONFIG: Das quais o cargo precisa para compilar.
+name = "hello_cargo"
+version = "0.1.0"
+edition = "2024"
+
+# Uma seção para listar todas as dependências do projeto.
+[dependencies]

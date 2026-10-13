@@ -1,6 +1,8 @@
 # --- Rust/Cargo Padrão ---
-# Ignora toda a pasta de compilação (onde ficam os executáveis .exe, .dll, .so)
-/target/
+# Ignora toda pasta de compilação chamada "target", em qualquer subdiretório
+# (sem a barra inicial, pois cada exercício do livro é um projeto Cargo numa subpasta,
+# e não há um único /target/ na raiz do repositório)
+target/
 
 # --- Compilação manual com rustc (capítulos iniciais, antes do Cargo) ---
 # Binários e símbolos de debug gerados quando se compila direto com `rustc`
